@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Cluedo</title>
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    window.onload = () => document.getElementById('{{default}}').click();
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+  <link rel="stylesheet" href="/css/home.css">
+</head>
+
+<body>
+  <p>Cluedo</p>
+  <main class="cluedoForm" >
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'creategame')" id="create">Create Game</button>
+      <button class="tablinks" onclick="openCity(event, 'joingame')" id="join">Join Game</button>
+    </div>
+
+    <div class="tabcontent" id ="creategame">
+      <form action="/game/new" method="post">
+        <label for="count">Number Of Players</label>
+        <select name="numberOfPlayers" class="styled-select slate" id="count">
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+        <br>
+        <input type="submit" value="Create Game">
+        <span class="error">{{INVALIDCOUNT}}</span>
+      </form>
+    </div>
+
+    <div class="tabcontent" id="joingame">
+      <form action="/game/join" method="post">
+        <label for="gameId">Game ID</label>
+        <input type="text" name="gameId" id="gameId" value="" autofocus required>
+        <input type="submit" value="Join Game">
+        <span class="error">{{INVALIDGAMEID}}</span>
+      </form>
+    </div>
+
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,529 @@
+html {
+  background-color: #FFDEAD;
+  height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.cluedo{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  font-family: 'Acme';
+}
+
+.board {
+  width: 58%;
+  /* width: auto; */
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+#board {
+  background-image: url('../images/bbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+
+#all-players {
+  box-sizing: border-box;
+  display: flex;
+  height: 125px;
+  justify-content: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#all-players .player .image {
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 95px;
+  min-width: 53px;
+}
+
+#all-players div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 2px 5px;
+  padding: 2px 2px;
+}
+
+#all-players div span {
+  font-weight: bold;
+  padding: 2px 0px;
+  white-space: nowrap;
+}
+
+.player-details {
+  display: flex;
+}
+
+#current-player {
+  padding: 1px 2px;
+  margin: 2px 2px;
+  border-radius: 4%;
+  height: 120px;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  flex-direction: column;
+}
+
+#current-player .image {
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  min-width: 60px;
+}
+
+.board #cards {
+  display: flex;
+  flex-grow: 1;
+  height: auto;
+  justify-content: center;
+  margin-top: 8px;
+  margin-left: 50px;
+  max-height: 20%;
+  width: auto;
+}
+
+.board #cards img {
+  border: 3px solid black;
+  height: 115px;
+  margin: 0px 5px;
+  width: 75px;
+}
+
+.title {
+  align-self: center;
+  color: #1A0800;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0px 20px;
+  width: 250px;
+}
+
+#log {
+  border: 5px solid #1A0800;
+  display: flex;
+  height: 490px;
+  background-color: #DFB577;
+  position: relative;
+  flex-direction: column;
+  display: flex;
+}
+
+#activity-log {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  scroll-behavior: smooth;
+  display: flex;
+  overflow: auto;
+  position: relative;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#activity-log div {
+  border-bottom: 1px dashed #ebd8ba38;
+  font-family: 'Mukta Mahee', sans-serif;
+}
+
+#activity-log div span {
+  font-size: 24px;
+}
+
+#activity-log div .activity {
+  color: #1A0800;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+#activity-log div .token {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+#activity-log div .time {
+  font-size: 24px;
+  color: #1a0800bd;
+  white-space: nowrap;
+}
+
+#activity-log div .time:after {
+  content: " :";
+}
+
+.modal {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  padding-top: 130px;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.modal-content {
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 5px 5px #8B4513;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  background-color: #c19e67;
+  border: 5px solid #8b4513;
+  margin: 0px 200px;
+  padding: 0px 20px 20px 20px;
+  border: 1px solid #c19e67;
+  width: 30%;
+  height: auto;
+}
+
+.close {
+  color: #8b4513;
+  text-align: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close span:hover, .close span:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1em;
+}
+
+.popup div {
+  flex-grow: 1;
+  height: auto;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.popup #confirm {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.popup button {
+  margin: 10px;
+  font-size: 20px;
+  width: 200px;
+  height: 30px;
+  align-self: center;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: none;
+  background-color: #8B4513;
+  color: #dfb577;
+  cursor: pointer;
+}
+
+.popup div input {
+  margin: 8px;
+  font-size: 20px;
+}
+
+.popup div label {
+  margin: 0px 4px 0px 4px;
+  font-size: 25px;
+}
+
+.popup div div {
+  margin: 6px;
+  flex-direction: column;
+}
+
+.popup div div label {
+  margin: 6px;
+}
+
+.popup div div select {
+  margin: 6px;
+  font-size: 1em;
+}
+
+.subtitle {
+  font-size: 25px;
+  text-align: center;
+}
+
+#message-box {
+  font-size: 24px;
+  text-align: center;
+}
+
+.play-again {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.play-again a {
+  padding: 5px;
+  font-size: 23px;
+  border-radius: 10%;
+  margin-top: 15px;
+  text-decoration: none;
+  background: #8B4513;
+  color: #dfb577;
+}
+
+#roll-dice {
+  background-color: #e8c17e;
+  color: #c19e67;
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  height: 110px;
+  margin: auto;
+  width: 110px;
+  text-align: center;
+}
+
+#imp-message-box {
+  color: #dfb577;
+  font-size: 40px;
+  text-align: center;
+}
+
+#dice {
+  text-align: center;
+  font-size: 5em;
+  color: black;
+  margin-top: -53px;
+}
+
+#dice:hover {
+  cursor: pointer;
+}
+
+.active-player {
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0px 0px 20px 5px #8B4513;
+}
+
+.styled-select.slate {
+  background: url('/images/arrow.png') no-repeat right center;
+  background-size: contain;
+  background-color: none;
+  border: none;
+  border-bottom: 2px solid #8B4513;
+  font-size: 18px;
+  height: 30px;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+#activity-box {
+  margin-top: 10px;
+}
+
+#activity {
+  /* width: auto; */
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+#activity button {
+  margin: 20px;
+  font-size: 20px;
+  width: 100px;
+  height: 30px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: none;
+  background-color: #8B4513;
+  color: #dfb577;
+  cursor: pointer;
+}
+
+.combination {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.combination img {
+  border: 3px solid black;
+  height: 170px;
+  margin: 5px;
+}
+
+.murderCombination {
+  font-size: 25px;
+  text-align: center;
+}
+
+#cancelsuspicion {
+  display: flex;
+  justify-content: center;
+}
+
+#cancelsuspicion img {
+  border: 3px solid black;
+  height: 200px;
+  margin: 0px 10px;
+}
+
+#ruledOutCard {
+  display: flex;
+  flex-direction: column;
+}
+
+#ruledOutCard img {
+  border: 3px solid black;
+  height: 200px;
+  margin: auto;
+}
+
+#ruledOutCard button {
+  margin: 10px;
+  font-size: 30px;
+  width: 80px;
+  height: 35px;
+  align-self: center;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: none;
+  background-color: #8B4513;
+  color: #dfb577;
+  cursor: pointer;
+}
+
+.back-button {
+  padding: 0px;
+  text-align: left;
+  font-size: 30px;
+}
+
+#back {
+  cursor: pointer;
+}
+
+#character {
+  display: flex;
+  width: auto;
+}
+
+#character img {
+  border: 2px solid black;
+  margin: 0 3px;
+  height: 80px;
+  width: auto;
+}
+
+#weapon {
+  display: flex;
+  width: auto;
+}
+
+#weapon img {
+  border: 2px solid black;
+  margin: 0 3px;
+  height: 80px;
+  width: auto;
+}
+
+.highlight {
+  -webkit-box-shadow: 0px 0px 20px 5px #330033;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.cards {
+  margin: 0px;
+  text-align: center;
+  color: #8B4513;
+  font-size: 30px
+}
+
+#message {
+  margin-left: 35%;
+  color: #8B4513;
+}
+
+.buttonInCenter button {
+  margin: 10px auto;
+  font-size: 25px;
+  width: 150px;
+  height: 35px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: none;
+  background-color: #8B4513;
+  color: #dfb577;
+  cursor: pointer;
+}
+
+.buttonInCenter {
+  text-align: center;
+}
+
+#leave {
+  margin-left: 500px;
+  margin-right: 25px;
+  margin-bottom: 7px;
+  padding: 2px;
+}
+
+#leave button {
+  font-size: 20px;
+  background-color: #dfb577;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+}

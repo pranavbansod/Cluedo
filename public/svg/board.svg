@@ -1,0 +1,202 @@
+<svg viewBox="0 0 1220 813" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <rect x="-1" y="-1" width="1222" height="815" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_87" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+
+ <g>
+  <image fill="#fff" x="0.75" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="1"/>
+  <image fill="#fff" x="0.75" y="45.75" width="45" height="45" href="/images/sceenTile.jpg" id="2"/>
+  <image fill="#fff" x="0.75" y="90.75" width="45" height="45" href="/images/sceenTile.jpg" id="3"/>
+  <image fill="#fff" x="0.75" y="135.75" width="45" height="45" href="/images/sceenTile.jpg" id="4"/>
+  <image fill="#fff" x="0.75" y="180.75" width="45" height="45" href="/images/sceenTile.jpg" id="5"/>
+  <image fill="#fff" x="0.75" y="225.75" width="45" height="45" href="/images/sceenTile.jpg" id="6"/>
+  <image fill="#fff" x="0.75" y="270.75" width="45" height="45" href="/images/sceenTile.jpg" id="7"/>
+  <image fill="#fff" x="0.75" y="315.75" width="45" height="45" href="/images/sceenTile.jpg" id="8"/>
+  <image fill="#fff" x="0.75" y="360.75" width="45" height="45" href="/images/door.png" id="9"/>
+  <image fill="#fff" x="0.75" y="405.75" width="45" height="45" href="/images/sceenTile.jpg" id="10"/>
+  <image fill="#fff" x="0.75" y="450.75" width="45" height="45" href="/images/sceenTile.jpg" id="11"/>
+  <image fill="#fff" x="0.75" y="496.46467" width="45" height="45" href="/images/sceenTile.jpg" id="12"/>
+  <image fill="#fff" x="0.75" y="542.17935" width="45" height="45" href="/images/sceenTile.jpg" id="13"/>
+  <image fill="#fff" x="0.75" y="587.17935" width="45" height="45" href="/images/sceenTile.jpg" id="14"/>
+  <image fill="#fff" x="0.75" y="632.17935" width="45" height="45" href="/images/sceenTile.jpg" id="15"/>
+  <image fill="#fff" x="0.75" y="677.17935" width="45" height="45" href="/images/sceenTile.jpg" id="16"/>
+  <image fill="#fff" x="0.75" y="722.17935" width="45" height="45" href="/images/sceenTile.jpg" id="17"/>
+  <image fill="#fff" x="0.75" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="18"/>
+  <image fill="#fff" x="45.75" y="767.17935" width="45" height="45" href="/images/door.png" id="19"/>
+  <image fill="#fff" x="90.75" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="20"/>
+  <image fill="#fff" x="135.75" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="21"/>
+  <image fill="#fff" x="180.75" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="22"/>
+  <image fill="#fff" x="225.75" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="23"/>
+  <image fill="#fff" x="270.75" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="24"/>
+  <image fill="#fff" x="315.75" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="25"/>
+  <image fill="#fff" x="360.75" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="26"/>
+  <image fill="#fff" x="405.75" y="767.17935" width="45" height="45" href="/images/door.png" id="27"/>
+  <image fill="#fff" x="450.75" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="28"/>
+  <image fill="#fff" x="495.75" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="29"/>
+  <image fill="#fff" x="540.75" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="30"/>
+  <image fill="#fff" x="585.75" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="31"/>
+  <image fill="#fff" x="631.46502" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="32"/>
+  <image fill="#fff" x="677.46502" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="33"/>
+  <image fill="#fff" x="723.46502" y="767.17935" width="45" height="45" href="/images/door.png" id="34"/>
+  <image fill="#fff" x="768.46502" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="35"/>
+  <image fill="#fff" x="814.46502" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="36"/>
+  <image fill="#fff" x="859.46502" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="37"/>
+  <image fill="#fff" x="904.46502" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="38"/>
+  <image fill="#fff" x="949.46502" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="39"/>
+  <image fill="#fff" x="994.46502" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="40"/>
+  <image fill="#fff" x="1039.46502" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="41"/>
+  <image fill="#fff" x="1084.46502" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="42"/>
+  <image fill="#fff" x="1129.46502" y="767.17935" width="45" height="45" href="/images/door.png" id="43"/>
+  <image fill="#fff" x="1174.46502" y="767.17935" width="45" height="45" href="/images/sceenTile.jpg" id="44"/>
+  <image fill="#fff" x="1174.46502" y="722.17935" width="45" height="45" href="/images/sceenTile.jpg" id="45"/>
+  <image fill="#fff" x="1174.46502" y="677.17935" width="45" height="45" href="/images/sceenTile.jpg" id="46"/>
+  <image fill="#fff" x="1174.46502" y="632.17935" width="45" height="45" href="/images/sceenTile.jpg" id="47"/>
+  <image fill="#fff" x="1174.46502" y="587.17935" width="45" height="45" href="/images/sceenTile.jpg" id="48"/>
+  <image fill="#fff" x="1174.46502" y="542.17935" width="45" height="45" href="/images/sceenTile.jpg" id="49"/>
+  <image fill="#fff" x="1174.46502" y="496.46467" width="45" height="45" href="/images/sceenTile.jpg" id="50"/>
+  <image fill="#fff" x="1174.46502" y="450.75" width="45" height="45" href="/images/sceenTile.jpg" id="51"/>
+  <image fill="#fff" x="1174.46502" y="405.75" width="45" height="45" href="/images/sceenTile.jpg" id="52"/>
+  <image fill="#fff" x="1174.46502" y="360.75" width="45" height="45" href="/images/door.png" id="53"/>
+  <image fill="#fff" x="1174.46502" y="315.75" width="45" height="45" href="/images/sceenTile.jpg" id="54"/>
+  <image fill="#fff" x="1174.46502" y="270.75" width="45" height="45" href="/images/sceenTile.jpg" id="55"/>
+  <image fill="#fff" x="1174.46502" y="225.75" width="45" height="45" href="/images/sceenTile.jpg" id="56"/>
+  <image fill="#fff" x="1174.46502" y="180.75" width="45" height="45" href="/images/sceenTile.jpg" id="57"/>
+  <image fill="#fff" x="1174.46502" y="135.75" width="45" height="45" href="/images/sceenTile.jpg" id="58"/>
+  <image fill="#fff" x="1174.46502" y="90.75" width="45" height="45" href="/images/sceenTile.jpg" id="59"/>
+  <image fill="#fff" x="1174.46502" y="45.75" width="45" height="45" href="/images/sceenTile.jpg" id="60"/>
+
+  <image fill="#fff" x="769.46502" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="70"/>
+  <image fill="#fff" x="814.46502" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="69"/>
+  <image fill="#fff" x="859.46502" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="68"/>
+  <image fill="#fff" x="904.46502" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="67"/>
+  <image fill="#fff" x="949.46502" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="66"/>
+  <image fill="#fff" x="994.46502" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="65"/>
+  <image fill="#fff" x="1039.46502" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="64"/>
+  <image fill="#fff" x="1084.46502" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="63"/>
+  <image fill="#fff" x="1129.46502" y="0.75" width="45" height="45" href="/images/door.png" id="62"/>
+  <image fill="#fff" x="1174.46502" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="61"/>
+  <image fill="#fff" x="45.75" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="86"/>
+  <image fill="#fff" x="90.75" y="0.75" width="45" height="45" href="/images/door.png" id="85"/>
+  <image fill="#fff" x="135.75" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="84"/>
+  <image fill="#fff" x="180.75" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="83"/>
+  <image fill="#fff" x="226.75" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="82"/>
+  <image fill="#fff" x="271.75" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="81"/>
+  <image fill="#fff" x="316.75" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="80"/>
+  <image fill="#fff" x="361.75" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="79"/>
+  <image fill="#fff" x="406.75" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="78"/>
+  <image fill="#fff" x="451.75" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="77"/>
+  <image fill="#fff" x="495.75" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="76"/>
+  <image fill="#fff" x="540.75" y="0.75" width="45" height="45" href="/images/door.png" id="75"/>
+  <image fill="#fff" x="585.75" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="74"/>
+  <image fill="#fff" x="631.46502" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="73"/>
+  <image fill="#fff" x="677.46502" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="72"/>
+  <image fill="#fff" x="723.46502" y="0.75" width="45" height="45" href="/images/sceenTile.jpg" id="71"/>
+
+  <text xml:space="preserve" text-anchor="start" font-family="Acme" font-size="25" id="svg_room" y="517.68912" x="94.18773" fill="#dfb577">Dining Room</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Acme" font-size="25" id="svg_room" y="558.68912" x="95.18773" fill="#dfb577">Conservatory</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Acme" font-size="25" id="svg_room" y="266.68912" x="104.18773" fill="#dfb577">Kitchen</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Acme" font-size="25" id="svg_room" y="270.68912" x="565.18773" fill="#dfb577">Ball Room</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Acme" font-size="25" id="svg_room" y="267.68912" x="1021.18773" fill="#dfb577">Lounge</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Acme" font-size="25" id="svg_room" y="505.68912" x="1030.18773" fill="#dfb577">Hall</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Acme" font-size="25" id="svg_room" y="560.68912" x="1011.18773" fill="#dfb577">Study</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Acme" font-size="25" id="svg_room" y="560.68912" x="399.18773" fill="#dfb577">Billiard Room</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Acme" font-size="25" id="svg_room" y="560.68912" x="712.18773" fill="#dfb577">Library</text>
+
+  <foreignObject id="dice-box" height="230" width="230" y="340" x="500">
+  </foreignObject>
+
+  <rect fill="none" x="82.5" y="76.95" width="8" height="9" stroke-width="0" stroke="#000" id="orchid-Kitchen"/>
+  <rect fill="none" x="112.5" y="76.95" width="8" height="9" stroke-width="0" stroke="#000" id="green-Kitchen"/>
+  <rect fill="none" x="142.5" y="76.95" width="8" height="9" stroke-width="0" stroke="#000" id="peacock-Kitchen"/>
+  <rect fill="none" x="82.5" y="126.95" width="8" height="9" stroke-width="0" stroke="#000" id="plum-Kitchen"/>
+  <rect fill="none" x="112.5" y="126.95" width="8" height="9" stroke-width="0" stroke="#000" id="scarlett-Kitchen"/>
+  <rect fill="none" x="142.5" y="126.95" width="8" height="9" stroke-width="0" stroke="#000" id="mustard-Kitchen"/>
+  <rect fill="none" x="564.5" y="76.95" width="8" height="9" stroke-width="0" stroke="#000" id="orchid-Ballroom"/>
+  <rect fill="none" x="594.5" y="76.95" width="8" height="9" stroke-width="0" stroke="#000" id="green-Ballroom"/>
+  <rect fill="none" x="624.5" y="76.95" width="8" height="9" stroke-width="0" stroke="#000" id="peacock-Ballroom"/>
+  <rect fill="none" x="564.5" y="126.95" width="8" height="9" stroke-width="0" stroke="#000" id="plum-Ballroom"/>
+  <rect fill="none" x="594.5" y="126.95" width="8" height="9" stroke-width="0" stroke="#000" id="scarlett-Ballroom"/>
+  <rect fill="none" x="624.5" y="126.95" width="8" height="9" stroke-width="0" stroke="#000" id="mustard-Ballroom"/>
+  <rect fill="none" x="1004.5" y="76.95" width="8" height="9" stroke-width="0" stroke="#000" id="orchid-Lounge"/>
+  <rect fill="none" x="1034.5" y="76.95" width="8" height="9" stroke-width="0" stroke="#000" id="green-Lounge"/>
+  <rect fill="none" x="1064.5" y="76.95" width="8" height="9" stroke-width="0" stroke="#000" id="peacock-Lounge"/>
+  <rect fill="none" x="1004.5" y="126.95" width="8" height="9" stroke-width="0" stroke="#000" id="plum-Lounge"/>
+  <rect fill="none" x="1034.5" y="126.95" width="8" height="9" stroke-width="0" stroke="#000" id="scarlett-Lounge"/>
+  <rect fill="none" x="1064.5" y="126.95" width="8" height="9" stroke-width="0" stroke="#000" id="mustard-Lounge"/>
+  <rect fill="none" x="1014.5" y="366.95" width="8" height="9" stroke-width="0" stroke="#000" id="orchid-Hall"/>
+  <rect fill="none" x="1044.5" y="366.95" width="8" height="9" stroke-width="0" stroke="#000" id="green-Hall"/>
+  <rect fill="none" x="1074.5" y="366.95" width="8" height="9" stroke-width="0" stroke="#000" id="peacock-Hall"/>
+  <rect fill="none" x="1014.5" y="416.95" width="8" height="9" stroke-width="0" stroke="#000" id="plum-Hall"/>
+  <rect fill="none" x="1044.5" y="416.95" width="8" height="9" stroke-width="0" stroke="#000" id="scarlett-Hall"/>
+  <rect fill="none" x="1074.5" y="416.95" width="8" height="9" stroke-width="0" stroke="#000" id="mustard-Hall"/>
+  <rect fill="none" x="104.5" y="366.95" width="8" height="9" stroke-width="0" stroke="#000" id="orchid-Dining"/>
+  <rect fill="none" x="134.5" y="366.95" width="8" height="9" stroke-width="0" stroke="#000" id="green-Dining"/>
+  <rect fill="none" x="164.5" y="366.95" width="8" height="9" stroke-width="0" stroke="#000" id="peacock-Dining"/>
+  <rect fill="none" x="104.5" y="416.95" width="8" height="9" stroke-width="0" stroke="#000" id="plum-Dining"/>
+  <rect fill="none" x="134.5" y="416.95" width="8" height="9" stroke-width="0" stroke="#000" id="scarlett-Dining"/>
+  <rect fill="none" x="164.5" y="416.95" width="8" height="9" stroke-width="0" stroke="#000" id="mustard-Dining"/>
+  <rect fill="none" x="104.5" y="656.95" width="8" height="9" stroke-width="0" stroke="#000" id="orchid-Conservatory"/>
+  <rect fill="none" x="134.5" y="656.95" width="8" height="9" stroke-width="0" stroke="#000" id="green-Conservatory"/>
+  <rect fill="none" x="164.5" y="656.95" width="8" height="9" stroke-width="0" stroke="#000" id="peacock-Conservatory"/>
+  <rect fill="none" x="104.5" y="706.95" width="8" height="9" stroke-width="0" stroke="#000" id="plum-Conservatory"/>
+  <rect fill="none" x="134.5" y="706.95" width="8" height="9" stroke-width="0" stroke="#000" id="scarlett-Conservatory"/>
+  <rect fill="none" x="164.5" y="706.95" width="8" height="9" stroke-width="0" stroke="#000" id="mustard-Conservatory"/>
+  <rect fill="none" x="431.5" y="654.95" width="8" height="9" stroke-width="0" stroke="#000" id="orchid-Billiard"/>
+  <rect fill="none" x="461.5" y="654.95" width="8" height="9" stroke-width="0" stroke="#000" id="green-Billiard"/>
+  <rect fill="none" x="491.5" y="654.95" width="8" height="9" stroke-width="0" stroke="#000" id="peacock-Billiard"/>
+  <rect fill="none" x="431.5" y="704.95" width="8" height="9" stroke-width="0" stroke="#000" id="plum-Billiard"/>
+  <rect fill="none" x="461.5" y="704.95" width="8" height="9" stroke-width="0" stroke="#000" id="scarlett-Billiard"/>
+  <rect fill="none" x="491.5" y="704.95" width="8" height="9" stroke-width="0" stroke="#000" id="mustard-Billiard"/>
+  <rect fill="none" x="712.5" y="644.95" width="8" height="9" stroke-width="0" stroke="#000" id="orchid-Library"/>
+  <rect fill="none" x="742.5" y="644.95" width="8" height="9" stroke-width="0" stroke="#000" id="green-Library"/>
+  <rect fill="none" x="772.5" y="644.95" width="8" height="9" stroke-width="0" stroke="#000" id="peacock-Library"/>
+  <rect fill="none" x="712.5" y="694.95" width="8" height="9" stroke-width="0" stroke="#000" id="plum-Library"/>
+  <rect fill="none" x="742.5" y="694.95" width="8" height="9" stroke-width="0" stroke="#000" id="scarlett-Library"/>
+  <rect fill="none" x="772.5" y="694.95" width="8" height="9" stroke-width="0" stroke="#000" id="mustard-Library"/>
+  <rect fill="none" x="1011.5" y="644.95" width="8" height="9" stroke-width="0" stroke="#000" id="orchid-Study"/>
+  <rect fill="none" x="1041.5" y="644.95" width="8" height="9" stroke-width="0" stroke="#000" id="green-Study"/>
+  <rect fill="none" x="1071.5" y="644.95" width="8" height="9" stroke-width="0" stroke="#000" id="peacock-Study"/>
+  <rect fill="none" x="1011.5" y="694.95" width="8" height="9" stroke-width="0" stroke="#000" id="plum-Study"/>
+  <rect fill="none" x="1041.5" y="694.95" width="8" height="9" stroke-width="0" stroke="#000" id="scarlett-Study"/>
+  <rect fill="none" x="1071.5" y="694.95" width="8" height="9" stroke-width="0" stroke="#000" id="mustard-Study"/>
+
+  <image class="room" href="/images/rooms/kitchen.png" y="43.75" x="45.75" width="200" height="200" id="Kitchen"/>
+  <image class="room" href="/images/rooms/ball_Room.png" y="45.74998" x="510.32179" width="215.00001" height="200" id="Ballroom"/>
+  <image class="room" href="/images/rooms/library.png" y="567.17934" x="672.89333" width="150.00001" height="200" id="Library"/>
+  <image class="room" href="/images/rooms/lounge.png" y="45.75" x="936.46502" width="237.00001" height="200" id="Lounge"/>
+  <image class="room" href="/images/rooms/hall.png" y="295.74999" x="937.46502" width="237.00001" height="180" id="Hall"/>
+  <image class="room" href="/images/rooms/study.png" y="567.17935" x="937.46502" width="237.00001" height="200" id="Study"/>
+  <image class="room" href="/images/rooms/billiard_Room.png" y="567.17934" x="392.4643" width="150.99997" height="200" id="Billiard"/>
+  <image class="room" href="/images/rooms/conservatory.png" y="567.17935" x="45.75" width="237.00001" height="200" id="Conservatory"/>
+  <image class="room" href="/images/rooms/dining_Room.png" y="295.75" x="45.75" width="237.00001" height="200" id="Dining"/>
+
+  <ellipse ry="18" rx="18" cy="144.933334" cx="-77.924997" fill="#ff69ff"
+    stroke="#000" stroke-width="2" id="orchid"/>
+  <ellipse ry="18" rx="18" cy="221.933334" cx="-77.924997" fill="#009900"
+    stroke="#000" stroke-width="2" id="green"/>
+  <ellipse ry="18" rx="18" cy="288.933334" cx="-77.924997" fill="#0d85ff"
+    stroke="#000" stroke-width="2" id="peacock"/>
+  <ellipse ry="18" rx="18" cy="369.933334" cx="-77.924997" fill="#6f04f6"
+    stroke="#000" stroke-width="2" id="plum"/>
+  <ellipse ry="18" rx="18" cy="460.933334" cx="-77.924997" fill="#bf0000"
+    stroke="#000" stroke-width="2" id="scarlett"/>
+  <ellipse ry="18" rx="18" cy="541.933334" cx="-77.924997" fill="#ffff00"
+    stroke="#000" stroke-width="2"
+    id="mustard"/>
+  <image x="300" y="100" width="70" height="70"
+    href="/images/weapons/Dagger.png" id="Dagger" opacity="0"/>
+  <image x="300" y="100" width="70" height="70"
+    href="/images/weapons/Wrench.png" id="Wrench" opacity="0"/>
+  <image x="300" y="100" width="70" height="70"
+    href="/images/weapons/Rope.png" id="Rope" opacity="0"/>
+  <image x="300" y="100" width="70" height="70"
+    href="/images/weapons/Revolver.png" id="Revolver" opacity="0"/>
+  <image x="300" y="100" width="70" height="70"
+    href="/images/weapons/Candlestick.png" id="Candlestick" opacity="0"/>
+  <image x="300" y="100" width="70" height="70"
+    href="/images/weapons/Lead_Pipe.png" id="Lead_Pipe" opacity="0"/>
+ </g>
+</svg>
